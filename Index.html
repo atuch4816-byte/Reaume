@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atuch Naknawa - Resume</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #eaf3ff;
+            color: #26364a;
+            line-height: 1.6;
+        }
+
+        .resume {
+            width: 900px;
+            max-width: 94%;
+            margin: 40px auto;
+            background: white;
+            box-shadow: 0 10px 35px rgba(40, 80, 130, 0.15);
+        }
+
+        .header {
+            background: #2d5b98;
+            color: white;
+            padding: 42px 55px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            letter-spacing: 2px;
+            margin-bottom: 7px;
+        }
+
+        .header p {
+            font-size: 18px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 34% 66%;
+        }
+
+        .left {
+            padding: 35px 30px 45px 45px;
+            border-right: 1px solid #d9e5f4;
+        }
+
+        .right {
+            padding: 35px 45px 45px 35px;
+        }
+
+        .section {
+            margin-bottom: 32px;
+        }
+
+        .section h2 {
+            color: #2d5b98;
+            font-size: 21px;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid #2d5b98;
+            padding-bottom: 6px;
+            margin-bottom: 14px;
+        }
+
+        .section h3 {
+            color: #314b6b;
+            font-size: 17px;
+            margin-bottom: 7px;
+        }
+
+        .section p,
+        .section li {
+            font-size: 14.5px;
+            color: #4d5967;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .contact {
+            word-break: break-word;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #edf4fc;
+            color: #2d5b98;
+            padding: 5px 10px;
+            margin: 4px 3px 4px 0;
+            border-radius: 14px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 700px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+
+            .left {
+                border-right: 0;
+                border-bottom: 1px solid #d9e5f4;
+                padding: 30px;
+            }
+
+            .right {
+                padding: 30px;
+            }
+
+            .header {
+                padding: 32px 30px;
+            }
+
+            .header h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <header class="header">
+        <h1>ATUCH NAKNAWA</h1>
+        <p>Communication Arts Student | Film Major</p>
+    </header>
+
+    <div class="content">
+
+        <aside class="left">
+
+            <section class="section">
+                <h2>CONTACT & ADDRESS</h2>
+
+                <p class="contact">
+                    274/41 Soi Lat Phrao 122,<br>
+                    Phlapphla, Wang Thonglang,<br>
+                    Bangkok 10310, Thailand
+                </p>
+            </section>
+
+
+            <section class="section">
+                <h2>PROFILE</h2>
+
+                <p>
+                    I am a Communication Arts student majoring in Film at the
+                    University of the Thai Chamber of Commerce. I have experience
+                    in live streaming and online sales through various online
+                    platforms. I enjoy communicating with customers and developing
+                    my sales and communication skills. I am interested in gaining
+                    new experiences and improving my skills for my future career.
+                </p>
+            </section>
+
+
+            <section class="section">
+                <h2>EDUCATION</h2>
+
+                <h3>
+                    University of the Thai Chamber of Commerce
+                </h3>
+
+                <p>
+                    Faculty of Communication Arts — Film Major
+                </p>
+            </section>
+
+        </aside>
+
+
+        <main class="right">
+
+            <section class="section">
+                <h2>WORK EXPERIENCE</h2>
+
+                <h3>
+                    Live Streaming & Online Sales
+                </h3>
+
+                <ul>
+                    <li>
+                        Experience in live streaming and selling products
+                        through various online platforms.
+                    </li>
+
+                    <li>
+                        Communicate with customers and provide clear product
+                        information during live streams.
+                    </li>
+
+                    <li>
+                        Interact with viewers and create an engaging atmosphere
+                        to encourage sales.
+                    </li>
+
+                    <li>
+                        Develop communication, presentation, and sales skills
+                        through practical experience.
+                    </li>
+                </ul>
+            </section>
+
+
+            <section class="section">
+                <h2>INTERESTS & HOBBIES</h2>
+
+                <span class="tag">
+                    Improving sales skills
+                </span>
+
+                <span class="tag">
+                    Listening to music
+                </span>
+
+                <span class="tag">
+                    Watching movies
+                </span>
+
+                <span class="tag">
+                    Walking in public parks
+                </span>
+            </section>
+
+        </main>
+
+    </div>
+
+</div>
+
+</body>
+</html>
